@@ -1,4 +1,5 @@
-tmux-xmonadbindings
-===================
+tmux XMonad keybindings
+=======================
 
-XMonad bindings for tmux
+A tmux configuration file that provides "XMonad" keybindings.
+
