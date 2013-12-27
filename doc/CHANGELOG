@@ -1,0 +1,13 @@
+Changelog of Updates
+====================
+
+v1.0
+----
+* Implemented majority of default bindings for XMonad in tmux using the meta
+  key as the central key for combinations
+* Wrote a program called "modifier" that provides modifier key feedback
+  regarding key states (instead of relying on keycodes from modifier+key
+  combinations)
+* Contains support for Macbook Air running OSX 10.9 (Mavericks)
+* Based on API documentation, Mac "modifier" application can run with OSX 10.6+
+
