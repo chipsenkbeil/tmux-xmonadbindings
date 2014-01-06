@@ -1,6 +1,20 @@
 tmux bindings to replicate XMonad
 =================================
 
+How to install
+--------------
+I have not written an automated build yet for the entire system. Currently, you
+can build the modifier program - used to detect modifier key states on their
+own - by entering the `src/` directory and running `make`. The binary for your
+architecture should be found within the _build_ directory within your
+architecture's directory.
+
+You should move the modifier program into location reachable by your path such
+as `/usr/local/bin` and then copy the configuration file found in `src/conf/`
+to either your home directory as `.tmux.conf` or your global location for
+tmux configuration files. In many Linux systems, this would be `/etc/tmux.conf`
+while on FreeBSD, it would be `/usr/local/etc/tmux.conf`.
+
 Current status (Mac OS X)
 -------------------------
 * Mac OS X (10.6+) is supported except for the following:
@@ -17,11 +31,13 @@ Current status (Linux)
 ----------------------
 * Key combinations using Return (Enter), Space, and Tab do not work as no
   capture program has been written to get modifier key states
+* Other bindings work (from brief testing)
 
 Current status (BSD)
 --------------------
 * Key combinations using Return (Enter), Space, and Tab do not work as no
   capture program has been written to get modifier key states
+* Other bindings work (from brief testing)
 
 Unsupported default operations
 ------------------------------
