@@ -1,6 +1,8 @@
 tmux bindings to replicate XMonad
 =================================
 
+For tmux version 1.8.x. This has not been tested with newer versions of tmux and may require alterations to the configuration file to be compatible with any version greater than 1.8.x.
+
 How to install
 --------------
 I have not written an automated build yet for the entire system. Currently, you
